@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="raw_porkchop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raw_porkchop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_gold_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_gold_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_sugar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_sugar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold_ingot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold_ingot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ink_sack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ink_sack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_raw_beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_raw_beef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cactus_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cactus_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_diamond_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_diamond_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raw_chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seeds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_spruce_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_spruce_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_potato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_sponge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_sponge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lapis_lazuli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lapis_lazuli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cactus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cactus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_raw_salmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_raw_salmon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_leather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_sugar_cane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_sugar_cane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabbit_hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabbit_hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acacia_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acacia_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_mutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_mutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superior_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superior_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_brown_mushroom_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_brown_mushroom_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obsidian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obsidian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_rabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raw_rabbit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_emerald_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_emerald_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clownfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clownfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spruce_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spruce_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_mushroom_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_mushroom_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_seeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_seeds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unstable_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unstable_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_iron_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_iron_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pumpkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pumpkin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_carrot_on_a_stick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_carrot_on_a_stick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_ender_pearl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_ender_pearl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cobblestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cobblestone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packed_ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packed_ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strong_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strong_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sugar_cane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sugar_cane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple_candy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purple_candy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_prismarine_shard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_prismarine_shard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_redstone_lamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_redstone_lamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prismarine_shard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prismarine_shard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="end_stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\end_stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown_mushroom_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brown_mushroom_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_lava_bucket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_lava_bucket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_bone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_bone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cocoa_bean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cocoa_bean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compactor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compactor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_raw_chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_raw_chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="melon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\melon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_magam_cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_magam_cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nether_wart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nether_wart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_packed_ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_packed_ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jungle_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jungle_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raw_fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_oak_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_oak_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_blaze_powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_blaze_powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green_gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_jungle_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_jungle_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_firework_rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_firework_rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown_mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brown_mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_paper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_red_mushroom_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_red_mushroom_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stock_of_stonks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock_of_stonks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netherrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netherrack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_enchanted_egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super_enchanted_egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_baked_potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_baked_potato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_flint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_lily_pad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_lily_pad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_block_of_coal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_block_of_coal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_ghast_tear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_ghast_tear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="old_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\old_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salmon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_bread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_bread.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_nether_wart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_nether_wart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pufferfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pufferfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ender_pearl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ender_pearl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_redstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_redstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_hay_bale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_hay_bale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_prismarine_crystals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_prismarine_crystals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_acacia_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_acacia_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghast_tear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghast_tear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cooked_mutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cooked_mutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_lapis_lazuli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_lapis_lazuli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emerald" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emerald.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cobblestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cobblestone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_golden_carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_golden_carrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_glowstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_glowstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slimeball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slimeball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_raw_fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_raw_fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_obsidian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_obsidian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_slimeball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_slimeball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_emerald" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_emerald.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oak_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oak_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabbit_foot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabbit_foot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="string" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\string.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_pumpkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_pumpkin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blaze_rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blaze_rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_quartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_quartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_pufferfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_pufferfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_melon_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_melon_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golden_tooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\golden_tooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gravel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gravel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_ink_sack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_ink_sack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_glowstone_dust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_glowstone_dust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamster_wheel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamster_wheel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raw_beef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cookie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cookie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cooked_salmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cooked_salmon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="feather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\feather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_viscera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant_viscera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_carrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_redstone_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_redstone_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="null" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\null.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_flesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant_flesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nether_quartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nether_quartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wolf_tooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wolf_tooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_fermented_spider_eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_fermented_spider_eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_melon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_melon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wise_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wise_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_grilled_pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_grilled_pork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_dark_oak_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_dark_oak_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_rotten_flesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_rotten_flesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_pork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_clay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_clay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_rabbit_foot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_rabbit_foot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_wet_sponge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_wet_sponge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_end_stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_end_stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoning_eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summoning_eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_compactor_3000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super_compactor_3000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot_potato_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot_potato_book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cooked_fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cooked_fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_raw_rabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_raw_rabbit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_clownfish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_clownfish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_red_mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_red_mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iron_ingot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iron_ingot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_birch_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_birch_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birch_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birch_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lily_pad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lily_pad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_charcoal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_charcoal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_cactus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_cactus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catalyst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catalyst.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cocoa_bean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cocoa_bean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glowstone_dust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glowstone_dust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_gunpowder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_gunpowder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarantula_silk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarantula_silk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_slime_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_slime_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gunpowder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gunpowder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_coal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_coal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_eye_of_ender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_eye_of_ender.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_lapis_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_lapis_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protector_dragon_fragment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protector_dragon_fragment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sponge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sponge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_blaze_rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_blaze_rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_string" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_string.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_rabbit_hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_rabbit_hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magma_cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magma_cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green_candy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_candy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_feather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_feather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_quartz_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_quartz_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rotten_flesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rotten_flesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hay_bale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hay_bale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prismarine_crystals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prismarine_crystals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spider_eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spider_eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foul_flesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foul_flesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_oak_wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark_oak_wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_snow_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_snow_block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_iron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_iron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_spider_eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_spider_eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_brown_mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_brown_mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarantula_web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarantula_web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchanted_glistering_melon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchanted_glistering_melon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discord_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discord_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twitter_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitter_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
